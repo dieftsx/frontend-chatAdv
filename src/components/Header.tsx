@@ -7,6 +7,7 @@ const Header: React.FC = () => {
     <header>
       <nav>
         <img src={logo} alt="ChatADV Logo" className="logo" />
+
         <ul>
           <li>
             <a href="#features">Funcionalidades</a>
