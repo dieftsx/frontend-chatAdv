@@ -1,0 +1,25 @@
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.pricing-plan {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(25% - 2rem);
+  max-width: calc(25% - 2rem);
+}
+
+.pricing-plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.pricing-plan ul li {
+  margin-bottom: 0.5rem;
+}

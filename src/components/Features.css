@@ -1,0 +1,11 @@
+section {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
