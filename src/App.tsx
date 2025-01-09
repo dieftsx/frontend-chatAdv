@@ -7,6 +7,7 @@ import Pricing from "./components/Pricing";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import Dashboard from "./components/Dashboard";
+import Chat from "./components/Chat";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <Features />
       <Pricing />
       <ContactForm />
+      <Chat />
       <Dashboard />
       <Footer />
     </>
